@@ -1,0 +1,109 @@
+.b {
+    border: 1px solid black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display:flex; 
+    flex-direction:column;
+}
+
+a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+ul{
+	list-style: none;
+}
+
+header{
+    height: 20vh;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    box-shadow: 5px 5px 15px rgb(167 224 198);
+}
+
+#top-nav-upper{
+    background-color: rgb(167, 224, 198, 0.35);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.top-nav-items{
+    margin: 0 50px;
+    padding: 5px 15px;
+    color: rgb(18, 53, 36);
+    font-size: 15px;
+}
+
+.top-nav-items:hover{
+    color: rgb(27, 79, 55);
+    text-decoration: underline;
+}
+
+#top-nav-lower{
+    margin-top: 20px;
+    background-color:  rgb(255,255,255);
+}
+
+.nav-container > form {
+    display: flex; 
+    flex-direction: row;
+}
+
+#ps-logo{
+    margin-right: 75px;
+    padding: 0 5px;
+    font-size: 35px;
+    color: rgb(36, 106, 73);
+}
+
+#ps-logo:hover {
+    cursor: pointer;
+}
+
+.nav-container > form > input{
+    width: 500px;
+    padding: 0 10px;
+    background-color: rgba(167, 224, 198, 0.35) ;
+    color: rgb(27, 79, 55);
+    font-size: 15px;
+}
+
+.nav-container > form > button{
+    padding: 0 5px;
+    line-height: 5vh;
+    vertical-align: middle;
+    font-size: 20px;
+    background-color: rgb(27, 79, 55);
+    color: rgb(255,255,255);
+}
+
+#sb-logo:hover{
+    cursor: pointer;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+

@@ -1,0 +1,214 @@
+.b {
+    border: 1px solid black;
+}
+body{
+    margin: 0;
+    min-height: 70vh;
+    font-family: 'Roboto', sans-serif;
+    display:flex; 
+    flex-direction:column;
+}
+
+a {
+    text-decoration: none; color: inherit;
+}
+
+header{
+    height: 20vh;
+    background-color: rgb(255,255,255);
+}
+
+#top-nav-upper{
+    background-color: rgb(167, 224, 198, 0.35);
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.top-nav-items{
+    margin: 0 50px;
+    padding: 5px 15px;
+    color: rgb(0,0,0);
+    font-size: 15px;
+}
+
+.top-nav-items:hover{
+    color: rgb(27, 79, 55);
+    text-decoration: underline;
+}
+
+#top-nav-lower{
+    margin-top: 20px;
+    background-color:  rgb(255,255,255);
+}
+
+#ps-logo {
+    margin-right: 75px;
+    padding: 0 5px;
+    font-size: 35px;
+    color: rgb(36, 106, 73);
+}
+
+#search-bar-input {
+    width: 500px;
+    padding: 0 10px;
+    background-color: rgba(167, 224, 198, 0.35) ;
+    color: rgb(27, 79, 55);
+    font-size: 15px;
+}
+
+#sb-logo{
+    padding: 0 5px;
+    line-height: 5vh;
+    vertical-align: middle;
+    font-size: 20px;
+    background-color: rgb(27, 79, 55);
+    color: rgb(255,255,255);
+}
+
+#sb-logo:hover{
+    cursor: pointer;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+footer {
+    background-color: rgb(54, 159, 110);
+    height: 25vh;
+    bottom: 0;
+    margin-top: 300px;
+}
+
+.foot-nav-items {
+    margin: 0 50px;
+    padding: 5px 15px;
+    font-size: 15px;
+}
+
+#main {
+    padding-top: 1px;
+    flex: 1;
+    
+    height: 130vh;
+}
+
+
+
+
+
+#post-full{
+    height: 100vh;
+    
+    margin: 50px 50px 50px 50px;
+    padding: 0px 50px 50px 50px;
+}
+
+#post-f {
+    height: 800px;
+    background-color: #a7e0c6;
+    margin: 50px 200px 50px 200px;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+#user-pic{
+    
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+#post-head{
+    position: absolute;
+    width: 1000px;
+    
+    float: left;
+    margin-left: 60px;
+    font-size: x-large;
+    
+}
+#post-info{
+    margin-top: 0%;
+    padding-top: 4px;
+    font-size: small;
+}
+
+#post-body{
+    padding-left: 5px;
+    height: 100px;
+    margin-top: 100px;
+   
+
+}
+
+#like-button{
+    
+    
+    padding-left: 10px;
+}
+#icons{
+    height: 30px;
+    width: 30px;
+    vertical-align: bottom;
+}
+
+#comment-box{
+    
+    background-color:#F0FFF0;
+    height: 65px;
+    width: 80%;
+    margin-left: 60px;
+}
+#com-name{
+    padding-top: 18px;
+    margin-left: 10px;
+}
+#comment-box2 {
+    background-color: #3fb981;
+    height: 65px;
+    width: 80%;
+    margin-left: 60px;
+}
+#new-comment {
+    
+    height: 65px;
+    width: 80%;
+    margin-left: 60px;
+}
+
+
+input[type=text],select {
+    width: 70%;
+    
+    padding: 12px 20px;
+    margin: 10px 0 0 70px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 60px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0 0 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

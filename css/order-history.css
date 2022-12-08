@@ -1,0 +1,95 @@
+#table-container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    margin:  0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: ridge rgb(36, 106, 73, 0.5);
+    margin: 30px 0;
+}
+
+th, td {
+    height: 5vh;
+    min-width: 100px;
+    max-width: 150px;
+    text-align: center;
+    padding: 0 25px;
+    border-bottom: 1px solid rgb(36, 106, 73);
+}
+
+th {
+    /* background-color: rgb(43, 125, 87); */
+    /* color: rgb(255, 255, 255); */
+    padding-top: 15px;
+    color: rgb(19, 57, 40);
+}
+
+td {
+    color: rgb(19, 57, 40);
+}
+
+#table-caption{
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+    height: 4vh;
+    padding-left: 40px;
+    border-bottom: ridge rgb(104, 185, 147, 0.85);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(104, 185, 147, 0.85), rgb(104, 185, 147, 0.25));
+}
+
+.order {
+    border-left: ridge rgb(36, 106, 73, 0.5);
+}
+
+.status select {
+    display: none;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    background: none;
+}
+
+.details{
+    padding: 0;
+    padding-right: 5px;
+    font-size: 12px;
+    border-right: ridge rgb(36, 106, 73, 0.5);
+}
+
+.details button{
+    border-radius: 5px;
+    padding: 2px;
+    font-size: inherit;
+    cursor: pointer;
+    background-color: rgb(167, 224, 198, 0.35);
+}
+
+.details i{
+    padding: 2px;
+}
+
+.details .edit{
+    cursor: pointer;
+}
+
+.details .fa-check, .fa-times{
+    display: none;
+    font-size: 15px;
+}
+
+.even-row{
+    background-color: rgb(170, 231, 203, 0.5);   
+}
+
+.odd-row{
+    background-color: rgb(192, 255, 228, 0.5);
+}
+
+

@@ -1,0 +1,80 @@
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto 0;
+}
+
+.form-container form {
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid rgb(27, 79, 55);
+    padding: 20px;
+    text-align: center;
+}
+
+.form-container form .title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: rgb(27, 79, 55);
+}
+
+
+.form-container form .box {
+    width: 90%;
+    padding: 5px 14px;
+    font-size: 15px;
+    text-transform: none;
+    border: 2px solid rgb(27, 79, 55);
+    margin: 5px 0;
+}
+
+.form-container form #form-btn {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(27, 79, 55);
+    color: #fff;
+    margin: 10px 0;
+}
+
+.form-container form #form-btn:hover {
+    background-color: rgb(63, 185, 129);
+}
+
+.form-container form p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(27, 79, 55);
+}
+
+.form-container form p a {
+    color: rgb(43, 125, 87);
+}
+
+.form-container form span {
+    display: none;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+    width: 100%;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }

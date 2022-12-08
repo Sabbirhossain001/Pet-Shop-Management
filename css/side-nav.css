@@ -1,0 +1,22 @@
+#main{
+    display: flex;
+}
+
+.side-nav{
+    width: 200px;
+    padding-top: 12px;
+    background-color: rgb(27, 79, 55);
+}
+
+.side-nav a{
+    padding: 10px 5px 10px 15px;
+    font-size: 15px;
+    display: block;
+    color: rgb(167, 224, 198);
+}
+
+.side-nav a:hover{
+    color: rgb(27, 79, 55);
+    border: outset;
+    background-color: rgb(167, 224, 198);
+}
